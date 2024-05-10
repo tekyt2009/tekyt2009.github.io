@@ -3,65 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Social Media Advertising</title>
+    <title>Advanced Website</title>
     <style>
+        /* Global Styles */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f2f2f2;
         }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #007bff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            padding: 10px 20px;
+            transition: all 0.3s ease-in-out;
+        }
+        nav a:hover {
+            background-color: #0056b3;
+        }
+        /* Page Specific Styles */
         .container {
             max-width: 800px;
-            margin: 50px auto;
+            margin: 20px auto;
             padding: 20px;
             background-color: #fff;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
-        h1, h2 {
+        h1 {
             text-align: center;
         }
-        .social-media {
-            display: flex;
-            justify-content: center;
-            margin-top: 30px;
+        p {
+            line-height: 1.6;
         }
-        .social-media a {
-            margin: 0 10px;
-            text-decoration: none;
-            color: #333;
-            transition: all 0.3s ease-in-out;
-        }
-        .social-media a:hover {
-            color: #007bff;
-        }
+        /* Responsive Styles */
         @media (max-width: 768px) {
             .container {
                 padding: 10px;
-            }
-            .social-media {
-                flex-wrap: wrap;
-            }
-            .social-media a {
-                margin: 10px;
             }
         }
     </style>
 </head>
 <body>
 
+<header>
+    <h1>Welcome to Our Website</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
 <div class="container">
-    <h1>Connect with Us on Social Media</h1>
-    <div class="social-media">
-        <a href="https://www.facebook.com/YourPage" target="_blank">Facebook</a>
-        <a href="https://twitter.com/YourTwitter" target="_blank">Twitter</a>
-        <a href="https://www.instagram.com/YourInstagram" target="_blank">Instagram</a>
-        <a href="https://www.linkedin.com/company/YourCompany" target="_blank">LinkedIn</a>
-    </div>
+    <h1>Welcome to Our Website</h1>
+    <p>This is the home page of our advanced website. You can navigate through the site using the navigation bar above.</p>
+    <p>Feel free to explore our services, learn more about us, or get in touch via the contact page.</p>
 </div>
 
 </body>
 </html>
-
-
